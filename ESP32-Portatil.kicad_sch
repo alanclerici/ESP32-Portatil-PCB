@@ -5,113 +5,6 @@
 	(uuid "49f8911c-9183-413a-8434-23c6add05009")
 	(paper "A5")
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
@@ -1303,31 +1196,32 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_SPST"
+		(symbol "TNG_Connectors:SLLB510100"
 			(pin_names
-				(offset 0)
-				(hide yes)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 3.175 0)
+			(property "Reference" "J"
+				(at -1.524 10.414 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Value" "SW_SPST"
-				(at 0 -2.54 0)
+			(property "Value" "SLLB510100"
+				(at 8.636 7.366 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right bottom)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "TNG_Connectors:SLLB510100"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1337,6 +1231,33 @@
 				)
 			)
 			(property "Datasheet" "~"
+				(at -18.796 8.636 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "~"
+				(at 2.54 13.462 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part #" "C125039"
+				(at 3.302 11.176 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Cortex Debug Connector ARM SWD JTAG"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1345,7 +1266,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Single Pole Single Throw (SPST) switch"
+			(property "ki_fp_filters" "PinHeader?2x05?P1.27mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1354,54 +1275,190 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch lever"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_SPST_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
+			(symbol "SLLB510100_0_1"
+				(rectangle
+					(start -3.81 6.35)
+					(end 3.81 -6.35)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.254) (xy 1.524 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+						(type background)
 					)
 				)
 			)
-			(symbol "SW_SPST_1_1"
+			(symbol "SLLB510100_1_1"
 				(pin passive line
-					(at -5.08 0 0)
+					(at -6.35 3.81 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 1.27 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -1.27 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -3.81 0)
+					(length 2.54)
+					(name "T"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "TNG_Connectors:TM-2027"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -4.064 9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "TM-2027"
+				(at 6.096 6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Footprint" "TNG_Connectors:TM-2027"
+				(at 0.508 11.176 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at -18.796 8.636 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "~"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part #" "C318948"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Cortex Debug Connector ARM SWD JTAG"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "PinHeader?2x05?P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TM-2027_0_1"
+				(rectangle
+					(start -6.35 5.08)
+					(end 6.35 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TM-2027_1_1"
+				(pin passive line
+					(at -8.89 2.54 0)
 					(length 2.54)
 					(name "A"
 						(effects
@@ -1419,7 +1476,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at -8.89 0 0)
 					(length 2.54)
 					(name "B"
 						(effects
@@ -1429,6 +1486,78 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -8.89 -2.54 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 2.54 180)
+					(length 2.54)
+					(name "Cen"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 -2.54 180)
+					(length 2.54)
+					(name "Com"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1830,12 +1959,6 @@
 		(uuid "a5d8ecf4-1672-4bca-a2de-dfacc6d6972c")
 	)
 	(junction
-		(at 185.42 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "44676152-7ba7-4771-ba04-a64a6aebe16b")
-	)
-	(junction
 		(at 49.53 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1859,19 +1982,9 @@
 		(color 0 0 0 0)
 		(uuid "a4a13bd9-2430-40d4-b3f6-ffc8e6534a27")
 	)
-	(junction
-		(at 181.61 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f030d3dc-5350-4573-ab96-7b137645b4fa")
-	)
 	(no_connect
 		(at 46.99 58.42)
 		(uuid "38b43213-87d1-4d6d-b427-f6b9c957ef9f")
-	)
-	(no_connect
-		(at 148.59 34.29)
-		(uuid "bacb8361-a680-4977-a749-769b82768879")
 	)
 	(no_connect
 		(at 46.99 55.88)
@@ -1909,16 +2022,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 57.15) (xy 181.61 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19ec6cd0-67fe-44bc-bc02-765b666ef9b5")
-	)
-	(wire
-		(pts
 			(xy 96.52 30.48) (xy 96.52 31.75)
 		)
 		(stroke
@@ -1926,16 +2029,6 @@
 			(type default)
 		)
 		(uuid "2a407b86-2f7a-4589-bb00-3ecd98cae1da")
-	)
-	(wire
-		(pts
-			(xy 181.61 43.18) (xy 181.61 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b45461c-f335-4305-ac8c-472deb470438")
 	)
 	(wire
 		(pts
@@ -2039,16 +2132,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 57.15) (xy 181.61 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "585b57ba-9153-469f-af13-21876103bcff")
-	)
-	(wire
-		(pts
 			(xy 27.94 66.04) (xy 27.94 67.31)
 		)
 		(stroke
@@ -2076,16 +2159,6 @@
 			(type default)
 		)
 		(uuid "6bca93a4-3e1a-4ec3-bed6-c8af32054027")
-	)
-	(wire
-		(pts
-			(xy 185.42 50.8) (xy 185.42 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b5bb7b9-2c15-49ee-8336-a4fc279b3d2c")
 	)
 	(polyline
 		(pts
@@ -2119,16 +2192,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 57.15) (xy 185.42 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84f68c3d-9efd-483d-9f66-6ce03e6bc881")
-	)
-	(wire
-		(pts
 			(xy 46.99 45.72) (xy 49.53 45.72)
 		)
 		(stroke
@@ -2146,26 +2209,6 @@
 			(type default)
 		)
 		(uuid "9f3b3ddb-1b5e-4d75-8e4f-ae5ec5a34f49")
-	)
-	(wire
-		(pts
-			(xy 181.61 57.15) (xy 181.61 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b86d659d-dae1-4451-bae9-10fd838fc29c")
-	)
-	(wire
-		(pts
-			(xy 180.34 43.18) (xy 181.61 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc90ebec-fbc2-4c87-97ca-0311f2259077")
 	)
 	(wire
 		(pts
@@ -2297,16 +2340,6 @@
 		)
 		(uuid "301ceed0-0323-4ec2-9f08-77b3d5ccaf47")
 	)
-	(label "PULSADOR"
-		(at 148.59 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4ccc5048-e100-4cc5-865c-de9d748623b1")
-	)
 	(label "SCL"
 		(at 109.22 91.44 180)
 		(effects
@@ -2336,16 +2369,6 @@
 			(justify right bottom)
 		)
 		(uuid "8d6e033b-1ea1-4b67-881a-078e4baa9167")
-	)
-	(label "PWR_ON_MCU"
-		(at 148.59 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9f848f0c-f147-4ed8-98d2-8012f9226125")
 	)
 	(label "PGOOD"
 		(at 148.59 40.64 0)
@@ -2418,16 +2441,6 @@
 		(uuid "cb3ec437-6901-4525-8486-2576e8354fdc")
 	)
 	(label "PULSADOR"
-		(at 186.69 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d9801742-0d35-491c-bcbb-11890bab4e4a")
-	)
-	(label "PULSADOR"
 		(at 59.69 118.11 0)
 		(effects
 			(font
@@ -2436,26 +2449,6 @@
 			(justify left bottom)
 		)
 		(uuid "e957557b-398e-467f-b6e6-e3157661c0c3")
-	)
-	(label "VBAT"
-		(at 180.34 43.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f18dc967-9d40-440d-bf9b-d0e2155af9c8")
-	)
-	(label "PWR_ON_MCU"
-		(at 59.69 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f1ed803c-f0e2-42d6-9c02-31ce275955de")
 	)
 	(label "SCL"
 		(at 59.69 113.03 0)
@@ -2466,17 +2459,6 @@
 			(justify left bottom)
 		)
 		(uuid "ffa0c256-75d2-40a1-a880-4c8c9388bfb5")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 181.61 63.5 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "580b1756-41fd-407d-8022-2420abb9be5d")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -2674,6 +2656,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 187.96 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 187.96 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "56e089cd-00da-425a-a779-4767f13ced1e")
 		)
@@ -2741,6 +2741,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 177.8 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 177.8 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fe8a178f-88fa-498d-8c77-5067fc163c3d")
 		)
@@ -2748,6 +2766,109 @@
 			(project ""
 				(path "/49f8911c-9183-413a-8434-23c6add05009"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TNG_Connectors:SLLB510100")
+		(at 149.86 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a61d540-3fdf-479d-ac6c-8851308a0090")
+		(property "Reference" "J3"
+			(at 154.94 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SLLB510100"
+			(at 154.94 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TNG_Connectors:SLLB510100"
+			(at 149.86 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 131.064 80.264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "~"
+			(at 152.4 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C125039"
+			(at 153.162 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 149.86 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 149.86 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "C"
+			(uuid "a19dab42-2e50-4b21-9011-51914b9fda43")
+		)
+		(pin "1"
+			(uuid "3d807fee-8c82-4778-b924-40d0f0e41f5e")
+		)
+		(pin "T"
+			(uuid "79dc740e-1565-438b-9e53-3f6be8a78017")
+		)
+		(pin "2"
+			(uuid "f74c5847-28b3-4f86-843e-232c0ee5737e")
+		)
+		(instances
+			(project "ESP32-Portatil"
+				(path "/49f8911c-9183-413a-8434-23c6add05009"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -2814,6 +2935,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 58.42 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 58.42 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8abfaa91-780d-41e5-8559-3104bb53f85f")
 		)
@@ -2824,6 +2963,113 @@
 			(project "ContadorPortatil"
 				(path "/49f8911c-9183-413a-8434-23c6add05009"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TNG_Connectors:TM-2027")
+		(at 180.34 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "365999d0-faa6-412f-b8e0-4f2e5f2c92fd")
+		(property "Reference" "J2"
+			(at 180.34 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TM-2027"
+			(at 180.34 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TNG_Connectors:TM-2027"
+			(at 180.848 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.544 80.264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "~"
+			(at 180.34 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C318948"
+			(at 180.34 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 180.34 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 180.34 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53ab127a-c72a-431f-940f-0299d6982132")
+		)
+		(pin "2"
+			(uuid "5fd8c944-0069-4afc-be17-ba224761cfa2")
+		)
+		(pin "5"
+			(uuid "49f19b74-2af8-40ff-a7ae-5fdd4ec46068")
+		)
+		(pin "3"
+			(uuid "eb543f6a-09df-4d88-bcef-a8fa5e69bfb7")
+		)
+		(pin "6"
+			(uuid "2e115164-7e48-4a04-80ee-4d8d3760f9d8")
+		)
+		(pin "4"
+			(uuid "b69a176b-8ada-4b6f-a463-f32ccea9189b")
+		)
+		(instances
+			(project "ESP32-Portatil"
+				(path "/49f8911c-9183-413a-8434-23c6add05009"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -3136,6 +3382,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 121.92 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 121.92 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e3d22267-6e25-46e1-890b-5d35d277e3da")
 		)
@@ -3415,6 +3679,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 58.42 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 58.42 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "85594644-ead0-4f53-8eed-3f6612b08ffe")
 		)
@@ -3497,74 +3779,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 181.61 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "be6063ef-75b6-420e-8f99-3c2d5f3b049b")
-		(property "Reference" "SW1"
-			(at 175.26 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 177.8 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 181.61 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 181.61 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d451632b-6383-4916-bf4e-9058cd7854c1")
-		)
-		(pin "2"
-			(uuid "03302f67-de45-4c71-b448-04260d1218a2")
-		)
-		(instances
-			(project "ContadorPortatil"
-				(path "/49f8911c-9183-413a-8434-23c6add05009"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
 		(at 31.75 43.18 0)
 		(unit 1)
@@ -3618,6 +3832,24 @@
 			)
 		)
 		(property "LCSC" "GT-USB-7047A"
+			(at 31.75 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 31.75 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 31.75 43.18 0)
 			(effects
 				(font
@@ -3819,73 +4051,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 185.42 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d47c4cc4-7fe9-4936-804c-87c5d468a6f5")
-		(property "Reference" "TP1"
-			(at 187.96 46.2279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TP"
-			(at 187.96 48.7679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
-			(at 190.5 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 190.5 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 185.42 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "050d7f7a-785b-4635-9037-4d2d246c7a78")
-		)
-		(instances
-			(project ""
-				(path "/49f8911c-9183-413a-8434-23c6add05009"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 152.4 26.67 0)
 		(unit 1)
@@ -4017,76 +4182,6 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 181.61 60.96 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f9837949-29a3-45f0-95b9-2edf8f44c2bc")
-		(property "Reference" "R3"
-			(at 183.642 61.214 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 183.134 59.436 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 181.61 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 181.61 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "111d4fce-c517-4217-b273-0ebfa1f6e311")
-		)
-		(pin "2"
-			(uuid "856a69f9-5ff3-4c74-b725-f9c98caf4efa")
-		)
-		(instances
-			(project "ContadorPortatil"
-				(path "/49f8911c-9183-413a-8434-23c6add05009"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(sheet
 		(at 27.94 91.44)
 		(size 31.75 33.02)
@@ -4185,16 +4280,6 @@
 		(pin "PULSE_IN" input
 			(at 59.69 101.6 0)
 			(uuid "9878b7be-4670-466b-8d14-65958678d497")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PWR_ON" output
-			(at 59.69 104.14 0)
-			(uuid "9905a5df-79e5-413e-a479-868cd490ce93")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4315,16 +4400,6 @@
 				(justify left)
 			)
 		)
-		(pin "SYSOFF" input
-			(at 148.59 34.29 0)
-			(uuid "3a5710bb-f00b-4567-adcc-58b70570f064")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "PGOOD" output
 			(at 148.59 40.64 0)
 			(uuid "8d7626ca-1a75-47df-bdeb-43330fe7c52e")
@@ -4338,26 +4413,6 @@
 		(pin "CHG" output
 			(at 148.59 43.18 0)
 			(uuid "96ea8ec8-91d9-49c5-9e48-32e22f1b5e9e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PWR_ON_MCU" input
-			(at 148.59 38.1 0)
-			(uuid "2a8ee7e1-bf0c-4008-9704-8e14f2ef800b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PULSADOR" input
-			(at 148.59 45.72 0)
-			(uuid "40d30cef-d6cf-49b2-9154-735329dae37e")
 			(effects
 				(font
 					(size 1.27 1.27)

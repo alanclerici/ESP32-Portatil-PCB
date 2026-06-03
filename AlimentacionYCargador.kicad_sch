@@ -399,113 +399,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -922,192 +815,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:SolderJumper_2_Open"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_2_Open"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Solder Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "solder jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SolderJumper_2_Open_0_1"
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Open_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Regulator_Linear:MCP1792x-5002xDB"
 			(pin_names
 				(offset 0.254)
@@ -1248,327 +955,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:2N7002"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "2N7002"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "N-Channel Switching MOSFET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "2N7002_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 0.381) (xy 3.683 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "2N7002_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-	)
-	(text "PULL DOWN GATE EN \nSCH PRINCIPAL"
-		(exclude_from_sim no)
-		(at 65.278 127.762 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "cc12c8aa-5e10-4b21-a877-94af998062ae")
-	)
-	(junction
-		(at 27.94 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0f435c39-fd3d-437d-94d9-2639852517b9")
-	)
-	(junction
-		(at 44.45 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "27d5d965-c161-4f7e-93d5-680567611ee3")
 	)
 	(junction
 		(at 129.54 48.26)
@@ -1601,18 +987,6 @@
 		(uuid "6992398c-1b36-4fdb-ab1d-d36ebad45b24")
 	)
 	(junction
-		(at 36.83 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8bcf1e93-052d-4e63-9640-3e80bbeea978")
-	)
-	(junction
-		(at 53.34 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a9176042-6d35-4fdc-9dfa-2b635848e3c8")
-	)
-	(junction
 		(at 54.61 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1623,12 +997,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "caf41ce7-552d-4592-9dcd-294b7af611fa")
-	)
-	(junction
-		(at 80.01 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d81ae201-f692-452e-8f43-62f90a9c2680")
 	)
 	(wire
 		(pts
@@ -1662,26 +1030,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 99.06) (xy 21.59 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1edbc636-f62c-499e-af7b-2a8240866a89")
-	)
-	(wire
-		(pts
-			(xy 78.74 99.06) (xy 80.01 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f29b407-4237-4e6d-85b5-a1ba144c1831")
-	)
-	(wire
-		(pts
 			(xy 95.25 48.26) (xy 111.76 48.26)
 		)
 		(stroke
@@ -1689,16 +1037,6 @@
 			(type default)
 		)
 		(uuid "208adb81-a5e5-44ec-9e36-5087d7979dff")
-	)
-	(wire
-		(pts
-			(xy 36.83 91.44) (xy 36.83 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2311beb3-7959-42b1-9d97-0848c325edd1")
 	)
 	(wire
 		(pts
@@ -1712,16 +1050,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 99.06) (xy 27.94 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "259f2345-ee0e-415e-b2a8-b7312010d56f")
-	)
-	(wire
-		(pts
 			(xy 118.11 80.01) (xy 115.57 80.01)
 		)
 		(stroke
@@ -1729,16 +1057,6 @@
 			(type default)
 		)
 		(uuid "26e424ba-4fa6-41ac-8a21-3d9882bce365")
-	)
-	(wire
-		(pts
-			(xy 45.72 114.3) (xy 48.26 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29ac78ec-bf1f-496f-8802-c4bcb9f959bb")
 	)
 	(wire
 		(pts
@@ -1752,36 +1070,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 99.06) (xy 27.94 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "309d0559-d569-4968-a641-4f167931d9a2")
-	)
-	(wire
-		(pts
-			(xy 33.02 88.9) (xy 36.83 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b404441-c159-4fac-a05e-e4b64c58f8ae")
-	)
-	(wire
-		(pts
-			(xy 55.88 121.92) (xy 58.42 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4edb3102-3c16-4844-827f-97052bd41b0b")
-	)
-	(wire
-		(pts
 			(xy 157.48 48.26) (xy 162.56 48.26)
 		)
 		(stroke
@@ -1789,16 +1077,6 @@
 			(type default)
 		)
 		(uuid "53d9de1f-e810-40e3-858b-9ab56574fdc0")
-	)
-	(wire
-		(pts
-			(xy 36.83 88.9) (xy 36.83 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54587d30-72c4-47cb-b6cf-20f02ff4ca1e")
 	)
 	(wire
 		(pts
@@ -1842,16 +1120,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 91.44) (xy 53.34 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67978c38-761c-4ae4-bfeb-cedfc9869b82")
-	)
-	(wire
-		(pts
 			(xy 59.69 34.29) (xy 82.55 34.29)
 		)
 		(stroke
@@ -1859,36 +1127,6 @@
 			(type default)
 		)
 		(uuid "67add8e2-9b82-4033-8ea9-3d7f45815f5a")
-	)
-	(wire
-		(pts
-			(xy 44.45 91.44) (xy 53.34 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d2f93c6-f751-49be-8b59-7807b285d6c9")
-	)
-	(wire
-		(pts
-			(xy 71.12 91.44) (xy 71.12 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73b67e8a-67f0-42a4-b503-810fcd0296b4")
-	)
-	(wire
-		(pts
-			(xy 53.34 91.44) (xy 71.12 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8115b4ee-2745-4d3c-b69f-5120a69ea4b2")
 	)
 	(wire
 		(pts
@@ -2002,16 +1240,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 91.44) (xy 44.45 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c293e520-f32c-4a33-8db0-f8f0130dccaf")
-	)
-	(wire
-		(pts
 			(xy 59.69 34.29) (xy 59.69 36.83)
 		)
 		(stroke
@@ -2019,16 +1247,6 @@
 			(type default)
 		)
 		(uuid "c6da002e-c6ad-454b-8821-63019909a0a4")
-	)
-	(wire
-		(pts
-			(xy 80.01 99.06) (xy 81.28 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7905ae3-923e-4c4f-adfd-4c63fe67d890")
 	)
 	(wire
 		(pts
@@ -2072,16 +1290,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 88.9) (xy 44.45 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df791b0b-787d-471c-8c4f-e823673f7545")
-	)
-	(wire
-		(pts
 			(xy 121.92 71.12) (xy 121.92 72.39)
 		)
 		(stroke
@@ -2119,26 +1327,6 @@
 			(type default)
 		)
 		(uuid "f07a964f-8db2-4380-a073-51e425652dd2")
-	)
-	(wire
-		(pts
-			(xy 80.01 99.06) (xy 80.01 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9daf218-3955-44f5-a3b5-2656cfd225a3")
-	)
-	(wire
-		(pts
-			(xy 48.26 114.3) (xy 48.26 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd1694fc-cf16-496f-a183-d78adcd3fa8d")
 	)
 	(label "LDO_VIN"
 		(at 128.27 48.26 0)
@@ -2181,17 +1369,6 @@
 		)
 		(uuid "060ae037-efee-4af5-8f59-7049ba6793b2")
 	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 36.83 104.14 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "060f3096-32f1-4fd5-93bd-fdf8cf841610")
-	)
 	(hierarchical_label "3V3"
 		(shape output)
 		(at 118.11 71.12 90)
@@ -2203,39 +1380,6 @@
 		)
 		(uuid "0bbbce9c-54d2-4fd1-a90f-a5b84843e574")
 	)
-	(hierarchical_label "VIN"
-		(shape input)
-		(at 21.59 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0e298cba-bd91-4223-bfbf-2356cbda09d9")
-	)
-	(hierarchical_label "PWR_ON_MCU"
-		(shape input)
-		(at 81.28 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "149ea392-211a-4da8-a79e-baeecfe68c6b")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 80.01 105.41 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1ba5b422-ffff-4ad4-8985-cfd57d97a54e")
-	)
 	(hierarchical_label "BAT"
 		(shape input)
 		(at 95.25 55.88 0)
@@ -2246,28 +1390,6 @@
 			(justify left)
 		)
 		(uuid "237c2c08-7ce5-4289-b281-613cfdf3ebed")
-	)
-	(hierarchical_label "PULSADOR"
-		(shape input)
-		(at 58.42 121.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "28a56153-2e88-4f52-a4c6-1f3883ca9317")
-	)
-	(hierarchical_label "SYSOFF"
-		(shape input)
-		(at 45.72 114.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "348c0e86-b7fa-41b6-a986-02d5138cccf9")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -2324,17 +1446,6 @@
 		)
 		(uuid "51d3a174-8cde-4579-b587-e9aef9298e2d")
 	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 48.26 127 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "55cc40a1-339e-4149-9e61-cfd2c81de5d0")
-	)
 	(hierarchical_label "PGOOD"
 		(shape output)
 		(at 124.46 80.01 0)
@@ -2359,6 +1470,17 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
+		(at 69.85 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "767d3067-6a5a-48f2-bb06-9dbc5a1d8fc5")
+	)
+	(hierarchical_label "GND"
+		(shape input)
 		(at 69.85 58.42 180)
 		(effects
 			(font
@@ -2367,17 +1489,6 @@
 			(justify right)
 		)
 		(uuid "790a460e-007b-4ff8-9df7-94edfb5fa5c3")
-	)
-	(hierarchical_label "SYSOFF"
-		(shape input)
-		(at 33.02 88.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "79856caa-1780-4f33-8147-a4bd60b07405")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -2414,28 +1525,6 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 53.34 106.68 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "948e259c-0ac1-415a-8b8a-8e2c812cfc5b")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 71.12 104.14 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9585c340-da88-48d7-9eb2-b28d7d84874c")
-	)
-	(hierarchical_label "GND"
-		(shape input)
 		(at 124.46 55.88 270)
 		(effects
 			(font
@@ -2466,17 +1555,6 @@
 			(justify right)
 		)
 		(uuid "a6818b89-6a5e-4145-ae4f-9ae6adaa01f9")
-	)
-	(hierarchical_label "SYSOFF"
-		(shape input)
-		(at 69.85 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "aefc3fb1-75cb-4c47-8a55-97889d7345b2")
 	)
 	(hierarchical_label "3V3"
 		(shape output)
@@ -2555,17 +1633,6 @@
 		)
 		(uuid "f2e726fc-4f53-4811-90de-924bb28abd02")
 	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 27.94 105.41 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f7676579-2880-40dc-9d1c-95f5e17f946e")
-	)
 	(symbol
 		(lib_id "Regulator_Linear:MCP1792x-5002xDB")
 		(at 143.51 48.26 0)
@@ -2611,6 +1678,24 @@
 			)
 		)
 		(property "Description" "Low Quiescent Current LDO Regulator, 4.5-55V input, 5.0V, 100mA, SOT-223"
+			(at 143.51 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 143.51 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 143.51 48.26 0)
 			(effects
 				(font
@@ -2691,6 +1776,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 118.11 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 118.11 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a7ffa9fc-58f0-48cd-a805-665e4c971d5b")
 		)
@@ -2760,6 +1863,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 97.79 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 97.79 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e3ff6295-26ef-4113-bd4f-1388d427a224")
 		)
@@ -2770,153 +1891,6 @@
 			(project "ContadorPortatil"
 				(path "/49f8911c-9183-413a-8434-23c6add05009/bd1acdec-87a6-4a80-b9e7-38ccff3b632e"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 80.01 102.87 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "33bcf0b0-4908-4e5e-ad61-a246ada1b5b0")
-		(property "Reference" "R8"
-			(at 82.042 103.124 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 81.534 101.346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 80.01 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 80.01 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d14c5848-6da9-4505-886b-a97d207e204f")
-		)
-		(pin "2"
-			(uuid "243d77b9-e3e2-4b86-9150-ce49354ec5d2")
-		)
-		(instances
-			(project "ContadorPortatil"
-				(path "/49f8911c-9183-413a-8434-23c6add05009/bd1acdec-87a6-4a80-b9e7-38ccff3b632e"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7002")
-		(at 50.8 121.92 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3ed0dba3-1992-439a-bc10-6b253afacfbb")
-		(property "Reference" "Q2"
-			(at 44.45 120.6499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 44.45 123.1899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 45.72 123.825 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 45.72 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 50.8 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "96cc1d84-84f9-424b-94f6-31d9948f2055")
-		)
-		(pin "3"
-			(uuid "1c4c9933-c530-42dc-8213-9277c536b1ed")
-		)
-		(pin "1"
-			(uuid "5fed301c-7ab3-470a-81a5-ac38c5f5d08f")
-		)
-		(instances
-			(project "ContadorPortatil"
-				(path "/49f8911c-9183-413a-8434-23c6add05009/bd1acdec-87a6-4a80-b9e7-38ccff3b632e"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -2969,6 +1943,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 111.76 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 111.76 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 111.76 53.34 0)
 			(effects
 				(font
@@ -3046,6 +2038,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 162.56 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 162.56 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d98a786e-8ab1-42cf-9808-4769b41ddc8a")
 		)
@@ -3107,6 +2117,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 59.69 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 59.69 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 59.69 39.37 0)
 			(effects
 				(font
@@ -3185,6 +2213,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 121.92 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 121.92 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "601c0713-23ca-4b84-b81d-f76146c254a7")
 		)
@@ -3246,6 +2292,24 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 59.69 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 59.69 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 59.69 72.39 0)
 			(effects
 				(font
@@ -3324,6 +2388,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 54.61 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 54.61 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dda4bda6-67c4-4216-b4cb-dbbc74323c8f")
 		)
@@ -3385,6 +2467,24 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 54.61 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 54.61 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 54.61 59.69 0)
 			(effects
 				(font
@@ -3463,6 +2563,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 157.48 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 157.48 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "90d1e255-9357-46b2-b5f4-1a562818f535")
 		)
@@ -3473,152 +2591,6 @@
 			(project "ContadorPortatil"
 				(path "/49f8911c-9183-413a-8434-23c6add05009/bd1acdec-87a6-4a80-b9e7-38ccff3b632e"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 53.34 102.87 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6eab8460-581c-46f6-a890-b762c316b3fd")
-		(property "Reference" "JP1"
-			(at 55.88 101.5999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SolderJumper"
-			(at 55.88 104.1399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 53.34 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 53.34 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 53.34 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e00a3c31-19f9-41c1-a9b4-01e4b91b4ac3")
-		)
-		(pin "2"
-			(uuid "9ae3995c-3f6c-42ef-b858-c19ab76202dc")
-		)
-		(instances
-			(project ""
-				(path "/49f8911c-9183-413a-8434-23c6add05009/bd1acdec-87a6-4a80-b9e7-38ccff3b632e"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7002")
-		(at 34.29 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "74a21d7e-876c-4cec-b3f8-b6a9f17167a9")
-		(property "Reference" "Q1"
-			(at 40.64 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 40.64 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 39.37 100.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 39.37 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 34.29 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "98b50dc4-9d36-4a1e-bce5-9795bcc8c6e0")
-		)
-		(pin "3"
-			(uuid "d2efc824-caa3-4fab-9050-6f2ece990075")
-		)
-		(pin "1"
-			(uuid "53ea2394-cc89-4fc5-8c7a-688de98024e4")
-		)
-		(instances
-			(project ""
-				(path "/49f8911c-9183-413a-8434-23c6add05009/bd1acdec-87a6-4a80-b9e7-38ccff3b632e"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -3670,6 +2642,24 @@
 		)
 		(property "Description" "Ferrite bead, small symbol"
 			(at 118.11 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 118.11 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 118.11 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3746,6 +2736,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 129.54 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 129.54 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "16416cad-836f-40f4-9538-91088843817d")
 		)
@@ -3756,219 +2764,6 @@
 			(project "ContadorPortatil"
 				(path "/49f8911c-9183-413a-8434-23c6add05009/bd1acdec-87a6-4a80-b9e7-38ccff3b632e"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 44.45 88.9 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bb8568af-e6b3-4603-b90c-e90493cc4d44")
-		(property "Reference" "TP2"
-			(at 41.91 84.3279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TP"
-			(at 41.91 86.8679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
-			(at 39.37 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 39.37 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 44.45 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "32aedcfa-17bf-4fc6-a818-3f2d45afcefe")
-		)
-		(instances
-			(project "ContadorPortatil"
-				(path "/49f8911c-9183-413a-8434-23c6add05009/bd1acdec-87a6-4a80-b9e7-38ccff3b632e"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 27.94 102.87 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d883b3b1-90f0-4d85-9ac3-e912277b6ab0")
-		(property "Reference" "R4"
-			(at 25.908 103.124 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 26.416 101.346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 27.94 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 27.94 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 27.94 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d2cec859-3d2f-458d-aa2c-4fe1a7583886")
-		)
-		(pin "2"
-			(uuid "a9a7ce18-bc13-4f50-a509-084cc96c809a")
-		)
-		(instances
-			(project "ContadorPortatil"
-				(path "/49f8911c-9183-413a-8434-23c6add05009/bd1acdec-87a6-4a80-b9e7-38ccff3b632e"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7002")
-		(at 73.66 99.06 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "debf9f30-636e-4241-a0a3-01217e766941")
-		(property "Reference" "Q3"
-			(at 67.31 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 67.31 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 68.58 100.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 68.58 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 73.66 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "53276b61-d91f-4095-9f63-23e2a77d8d2a")
-		)
-		(pin "3"
-			(uuid "93610748-3ec3-46a6-8019-8d0b7a8841a7")
-		)
-		(pin "1"
-			(uuid "84cc649f-9b5e-496b-84e9-e08d0253cbfe")
-		)
-		(instances
-			(project "ContadorPortatil"
-				(path "/49f8911c-9183-413a-8434-23c6add05009/bd1acdec-87a6-4a80-b9e7-38ccff3b632e"
-					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -4022,6 +2817,24 @@
 			)
 		)
 		(property "Description" "USB-Friendly Li-Ion Battery Charger and Power-Path Management, VQFN-16"
+			(at 82.55 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 82.55 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 82.55 58.42 0)
 			(effects
 				(font
@@ -4145,6 +2958,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 124.46 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 124.46 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4e084fb1-1496-4b13-aecd-86992827d6cf")
 		)
@@ -4207,6 +3038,24 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 62.23 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 62.23 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 62.23 72.39 0)
 			(effects
 				(font
