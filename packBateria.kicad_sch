@@ -196,6 +196,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Battery_Cell"
 			(pin_numbers
 				(hide yes)
@@ -1056,6 +1163,12 @@
 		(uuid "803630a8-7393-493b-bdb8-fa71c9e39d29")
 	)
 	(junction
+		(at 116.84 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b82bd541-a95f-4bea-85fa-04b4a294c51e")
+	)
+	(junction
 		(at 96.52 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1073,7 +1186,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 45.72) (xy 119.38 45.72)
+			(xy 111.76 45.72) (xy 116.84 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1153,6 +1266,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 45.72) (xy 119.38 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aac35e8-c863-4f4c-9e6b-334e235f7741")
+	)
+	(wire
+		(pts
 			(xy 96.52 78.74) (xy 111.76 78.74)
 		)
 		(stroke
@@ -1220,6 +1343,16 @@
 			(type default)
 		)
 		(uuid "7980d7c1-f85d-4a96-8003-b1d3cbe28891")
+	)
+	(wire
+		(pts
+			(xy 116.84 38.1) (xy 116.84 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cf6e017-ee82-46d3-b516-f193df74f2dd")
 	)
 	(wire
 		(pts
@@ -1697,6 +1830,73 @@
 			(project ""
 				(path "/49f8911c-9183-413a-8434-23c6add05009/c80999d4-c78c-44aa-8cf7-da02a279d4f3"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 116.84 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72d3d196-5448-4d4d-a31c-7472221076ff")
+		(property "Reference" "TP4"
+			(at 119.38 33.5279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT+"
+			(at 119.38 36.0679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 121.92 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 116.84 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "849b5be0-b81d-4b2c-8eae-020cf77a40da")
+		)
+		(instances
+			(project ""
+				(path "/49f8911c-9183-413a-8434-23c6add05009/c80999d4-c78c-44aa-8cf7-da02a279d4f3"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
