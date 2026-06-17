@@ -1475,7 +1475,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1dde2459-b8be-4d55-9ba0-7f77f571a289")
-		(property "Reference" "Q4"
+		(property "Reference" "Q2"
 			(at 71.12 82.55 90)
 			(effects
 				(font
@@ -1539,6 +1539,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C21791"
+			(at 71.12 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "38fe0b8e-8ba9-4058-b774-db41436e1db1")
 		)
@@ -1566,7 +1575,7 @@
 		(instances
 			(project ""
 				(path "/49f8911c-9183-413a-8434-23c6add05009/c80999d4-c78c-44aa-8cf7-da02a279d4f3"
-					(reference "Q4")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -1645,6 +1654,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C1525"
+			(at 111.76 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1054d000-0bec-4102-aaae-9eb5f64d7cfa")
 		)
@@ -1670,7 +1688,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5b7e603d-8002-4ba0-b77d-9ecf7f38d05a")
-		(property "Reference" "R12"
+		(property "Reference" "R10"
 			(at 62.23 63.4999 0)
 			(effects
 				(font
@@ -1733,6 +1751,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C25879"
+			(at 64.77 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1a66f183-c184-4f4c-b92a-ce61a9f517fa")
 		)
@@ -1742,7 +1769,7 @@
 		(instances
 			(project "ContadorPortatil"
 				(path "/49f8911c-9183-413a-8434-23c6add05009/c80999d4-c78c-44aa-8cf7-da02a279d4f3"
-					(reference "R12")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -1757,7 +1784,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "615cc47f-62a6-4bfa-8bdd-1b69ea3aa82e")
-		(property "Reference" "R13"
+		(property "Reference" "R11"
 			(at 114.3 50.7999 0)
 			(effects
 				(font
@@ -1820,6 +1847,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C23138"
+			(at 111.76 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2b13b606-1700-4f2f-a372-7ee400dd7c72")
 		)
@@ -1829,7 +1865,7 @@
 		(instances
 			(project ""
 				(path "/49f8911c-9183-413a-8434-23c6add05009/c80999d4-c78c-44aa-8cf7-da02a279d4f3"
-					(reference "R13")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -1845,7 +1881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72d3d196-5448-4d4d-a31c-7472221076ff")
-		(property "Reference" "TP4"
+		(property "Reference" "TP1"
 			(at 119.38 33.5279 0)
 			(effects
 				(font
@@ -1890,13 +1926,22 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "-"
+			(at 116.84 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "849b5be0-b81d-4b2c-8eae-020cf77a40da")
 		)
 		(instances
 			(project ""
 				(path "/49f8911c-9183-413a-8434-23c6add05009/c80999d4-c78c-44aa-8cf7-da02a279d4f3"
-					(reference "TP4")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -1973,6 +2018,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C183096"
+			(at 96.52 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "fd4bd98e-1150-48d6-b9a5-4701f7cb0356")
 		)
@@ -2010,7 +2064,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cc461d9d-2f46-4184-ae7c-277e21429e3f")
-		(property "Reference" "Q4"
+		(property "Reference" "Q2"
 			(at 81.28 82.55 90)
 			(effects
 				(font
@@ -2074,6 +2128,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C21791"
+			(at 81.28 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "1371fec4-6580-4578-8ddc-92c5f3b76bef")
 		)
@@ -2101,7 +2164,7 @@
 		(instances
 			(project ""
 				(path "/49f8911c-9183-413a-8434-23c6add05009/c80999d4-c78c-44aa-8cf7-da02a279d4f3"
-					(reference "Q4")
+					(reference "Q2")
 					(unit 2)
 				)
 			)
@@ -2172,6 +2235,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 119.38 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "-"
 			(at 119.38 63.5 0)
 			(effects
 				(font
